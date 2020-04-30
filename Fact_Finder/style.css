@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200);
+
+body{
+	background-color:#F65058FF;
+}
+
+h1{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; 
+	color:#FBDE44FF;
+	text-transform: uppercase;
+	font-family:Verdana,snas-serif;
+	font-size: 70px;
+	font-weight: 200;
+	text-decoration: underline;
+	margin:20px;
+}
+
+.button{
+	color:#FBDE44FF;
+	background-color:#28334AFF;
+	border:none;
+	outline:none;
+	padding:10px;
+	padding-bottom: 30px;
+	font-size:1.75em;
+	font-family:Verdana,snas-serif;
+	transition-duration: 0.5s;
+	width:20%;
+}
+
+.button:hover{
+	color: #28334AFF;
+	background-color: #FBDE44FF; 
+	text-decoration: underline;
+}
+
+#output{
+	color:#FBDE44FF;
+	font-family:Verdana,snas-serif;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    margin-top: 50px;
+    font-size:1.25em;
+}
+
+#buttons{
+	background-color:#28334AFF;
+	display:flex;
+	align-items: center;
+	justify-content: center; 
+}
