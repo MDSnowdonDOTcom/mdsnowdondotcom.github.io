@@ -57,13 +57,17 @@ h1{
 	margin:auto;
 	margin:auto;
 	width:517px;
-}
+z-index:1;
+}	
+
 
 #x {
 	position:absolute;
-	top:0px
-	left:0px;
-
+	top:0px;
+	right:0px;
+	width:30px;
+	height:30px;
+z-index:2;
 }
 
 .hidden{
