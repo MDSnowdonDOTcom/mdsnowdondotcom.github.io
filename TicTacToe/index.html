@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="TicTacToe.css">
+
+</head>
+<body>
+	<h1 id="titletext"> Tic Tac Toe<h1>
+	<div id="main">
+		<div id="one" class="box" onclick="playerTakeTurn(this)"></div>
+		<div id="two" class="box" onclick="playerTakeTurn(this)"></div>
+		<div id="three" class="box" onclick="playerTakeTurn(this)"></div>
+
+		<br>
+		<div id="four" class="box" onclick="playerTakeTurn(this)"></div>
+		<div id="five" class="box" onclick="playerTakeTurn(this)"></div>
+		<div id="six" class="box" onclick="playerTakeTurn(this)"></div>
+
+		<br>
+		<div id="seven" class="box" onclick="playerTakeTurn(this)"></div>
+		<div id="eight" class="box" onclick="playerTakeTurn(this)"></div>
+		<div id="nine" class="box" onclick="playerTakeTurn(this)"></div>
+	</div>
+
+	<div id="lightbox" class="hidden"></div>
+
+	<div id="positionMessage">
+		<div id="boundaryMessage" class="hidden" onclick="continueGame()">
+			<img id="x" src="images/x.png" alt="close">
+			<h1 id="message"></h1>
+			<p id="message2"></p>
+		</div>
+	</div>
+
+	<script src="TicTacToe.js"></script>
+</body>
+</html>

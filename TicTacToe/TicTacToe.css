@@ -1,0 +1,102 @@
+/*
+colour palette: https://colorhunt.co/palette/177866
+#204051 - dark cyan
+#3b6978 - cyan
+#84a9ac - light cyan
+#cae8d5 - offwhite green?
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@300&display=swap');
+
+#main{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	height:590px;
+	width:590px;
+	background-color:#204051;
+	padding: 10px
+}
+
+body { 
+	background-color: #84a9ac
+}
+
+#titletext{
+	text-align:center;
+	color:#3b6978;
+	font-size: 3em;
+	font-family: Comfortaa, Arial, sans-serif;
+}
+
+.box{
+	height: 170px;
+	width: 170px;
+	background-color: #cae8d5;
+	display:inline-block;
+	margin: 10px;
+	vertical-align: top;
+	text-align:center;
+	line-height: 170px;
+	font-size: 2em;
+	font-family: Roberto, Arial, sans-serif;
+	color:#3b6978;
+}
+
+#lightbox{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.7); 
+}
+
+.hidden{
+	display:none;
+}
+
+.unhidden{
+	display:block;
+}
+
+#x {
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:30px;
+	height:30px;
+	z-index:2;
+}
+
+#positionMessage{
+	position:absolute;
+	top:45px;
+	left:0px;
+	width:100%;
+}
+
+#boundaryMessage{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:700px;
+	height:200px;
+	background-color: rgba(255,255,255,0.9);
+	z-index:1;
+	padding:30px;
+	border:thick solid #204051;
+}
+
+#message2{
+	font-family: Roberto, Arial, sans-serif;
+	color:#3b6978;
+	text-align:center;
+}
+
+#message{
+	text-align:center;
+	color:#3b6978;
+	font-size: 2em;
+	font-family: Comfortaa, Arial, sans-serif;
+}
