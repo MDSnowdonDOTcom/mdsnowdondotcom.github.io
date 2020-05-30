@@ -7,17 +7,35 @@
 
 	<link rel="stylesheet" href="Pong.css">
 
+	<link rel='icon' href='favicon.ico' type='image/x-icon'>
+
 </head>
 <body>
 
+	<div id="controlpanel">
+		<div onclick="startGame()" id="start" class="controls">
+			Start Game (1)
+		</div>
+		<div onclick="stopGame()" id="stop" class="controls">
+			Stop Game (2)
+		</div>
+		<div onclick="pauseGame()" id="pause" class="controls">
+			Pause Game (3)
+		</div>
+		<div onclick="resumeGame()" id="resume" class="controls">
+			Resume Game (4)
+		</div>
+	</div>
+
 	<div id="header">
 		<h1 id="title">Pong</h1>
-		<h2 id="left">Score 1: <span id="score1">0</span></h2>
-		<h2 id="right">Score 2: <span id="score2">0</span></h2>
+		<h2 id="left">Player 1: <span id="score1">0</span></h2>
+		<h2 id="right">Player 2: <span id="score2">0</span></h2>
 		
 	</div>
 
 	<div id="gameBoard">
+
 		<div id="paddle1" class="paddle">
 		</div>
 
@@ -27,6 +45,16 @@
 		<div id="paddle2" class="paddle">
 		</div>
 
+	</div>
+
+	<div id="lightbox" class="unhidden"></div>
+
+	<div id="positionMessage">
+		<div id="boundaryMessage" class="unhidden" onclick="continueGame()">
+			<img id="x" src="images/x.png" alt="close">
+			<h1 id="message">How to Play</h1>
+			<p id="message2">Use 'W' and 'D' to move the left paddle, and 'Up' and 'Down' to move the right paddle. First to 5 wins!</p>
+		</div>
 	</div>
 
 	<script src="Pong.js"></script>
