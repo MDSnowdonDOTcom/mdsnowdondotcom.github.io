@@ -1,0 +1,100 @@
+body{
+	background-color:black;
+}
+
+#gameBoard{
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: 120px 120px 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 120px 120px;
+	justify-content: center;
+	width:600px;
+	height:600px;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gameBoard div{
+	background-color: #00EE00;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rider{
+	background-image: url("images/thing.png");
+}
+.tree{
+	background-image: url("images/tree.png");
+}
+.flag{
+	background-image: url("images/flag.png");
+}
+.rock{
+	background-image: url("images/rock.png");
+}
+.fence{
+	background-image: url("images/fence.png");
+}
+.fenceRotate{
+	background-image: url("images/fenceRotate.png");
+}
+.water{
+	background-image: url("images/water.jpg");
+}
+
+.left{
+	background-image: url("images/left.png");
+}
+.right{
+	background-image: url("images/right.png");
+}
+.up{
+	background-image: url("images/up.png");
+}
+.down{
+	background-image: url("images/down.png");
+}
+
+.leftWith{
+	background-image: url("images/leftWith.png");
+}
+.rightWith{
+	background-image: url("images/rightWith.png");
+}
+.upWith{
+	background-image: url("images/upWith.png");
+}
+.downWith{
+	background-image: url("images/downWith.png");
+}
+
+.leftEnemy{
+	background-image: url("images/leftEnemy.png");
+}
+.rightEnemy{
+	background-image: url("images/rightEnemy.png");
+}
+.upEnemy{
+	background-image: url("images/upEnemy.png");
+}
+.downEnemy{
+	background-image: url("images/downEnemy.png");
+}
+
+.jumpLeft{
+	background-image: url("images/jumpLeft.png");
+}
+.jumpRight{
+	background-image: url("images/jumpright.png");
+}
+.jumpUp{
+	background-image: url("images/jumpUp.png");
+}
+.jumpDown{
+	background-image: url("images/jumpDown.png");
+}
+
+.bridge{
+	background-color: #800020 !important;
+}
