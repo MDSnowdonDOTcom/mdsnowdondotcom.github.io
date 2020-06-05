@@ -28,7 +28,7 @@ body{
 	background-image: url("images/tree.png");
 }
 .flag{
-	background-image: url("images/flag.png");
+	background-image: url("images/Flag.png");
 }
 .rock{
 	background-image: url("images/rock.png");
@@ -37,7 +37,7 @@ body{
 	background-image: url("images/fence.png");
 }
 .fenceRotate{
-	background-image: url("images/fencerotate.png");
+	background-image: url("images/fenceRotate.png");
 }
 .water{
 	background-image: url("images/water.jpg");
