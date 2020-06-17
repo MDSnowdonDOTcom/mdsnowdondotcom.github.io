@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Albert and Simon's Adventure</title>
+	<title>In Search of Adventure</title>
 
 	<link rel="stylesheet" href="adventure.css">
 </head>
@@ -13,25 +13,139 @@
 		<div></div>
 		<div></div>
 		<div></div>
-
 		<div></div>
 		<div></div>
 		<div></div>
 		<div></div>
 		<div></div>
-
 		<div></div>
 		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
-
 		<div></div>
 		<div></div>
 		<div></div>
 		<div></div>
 		<div></div>
 
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
 		<div></div>
 		<div></div>
 		<div></div>
@@ -39,9 +153,36 @@
 		<div></div>
 	</div>
 
-	<div class="message" id="lose">You Lose</div>
+	<div class="lives">
+		<div id="life5"></div>
+		<div id="life4"></div>
+		<div id="life3"></div>
+		<div id="life2"></div>
+		<div id="life1"></div>
+	</div>
+
+	<div class="start" id="start">
+		<h1>In Search of Adventure</h1>
+		<p>The princess has been captureed and you need to free her!</p>
+		<p>Use the arrows to more around and reach the flag, to win and jump a fence you need to grab a saddle. Just beware of the other horses because if you hit one you would lose a life.</p>
+		<button onclick="hard()">Hard</button>
+		<button onclick="medium()">Medium</button>
+		<button onclick="easy()">Easy</button>
+	</div>
+
+	<div class="lose" id="lose" onclick="continueGame()">
+		<h1>You Lose!</h1>
+		<h2>Click to Continue</h2>
+	</div>
+
 	<div class="message" id="levelup">Next Level...</div>
-	<div class="message" id="win">You Win</div>
+
+	<div class="win" id="win" onclick="continueGame()">
+		<h1>You Saved the Princess!</h1>
+		<h2 id="score">&nbsp;</h2>
+		<h2 id="livesLeft">&nbsp;</h2>
+		<h2 id="again">Click to Play Again</h2>
+	</div>
 
 	<script src="adventure.js"></script>
 </body>
